@@ -1,0 +1,26 @@
+﻿@model Semeando.Models.UsuarioModel
+@{
+    ViewData["CadastroUsuario"] = "Cadastro de Usuário";
+}
+<h1>Cadastro de Usuário</h1>
+<form method="post">
+    <div class="form-group">
+        <label for="NomeUsuario">Nome</label>
+        <input type="text" id="Nome" name="Nome" class="form-control" value="@Model.Nome" required />
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email" class="form-control" value="@Model.Email" required />
+    </div>
+    <div class="form-group">
+        <label for="Ranking">Ranking</label>
+        <select id="Ranking" name="Ranking" class="form-control">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+

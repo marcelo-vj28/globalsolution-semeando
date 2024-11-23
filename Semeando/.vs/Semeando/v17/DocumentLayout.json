@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|c:\\users\\live_\\onedrive\\\u00E1rea de trabalho\\semeando-globalsolution-master\\semeando\\semeando\\controllers\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|solutionrelative:semeando\\controllers\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|c:\\users\\live_\\onedrive\\\u00E1rea de trabalho\\semeando-globalsolution-master\\semeando\\semeando\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|solutionrelative:semeando\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|c:\\users\\live_\\onedrive\\\u00E1rea de trabalho\\semeando-globalsolution-master\\semeando\\semeando\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|solutionrelative:semeando\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|c:\\users\\live_\\onedrive\\\u00E1rea de trabalho\\semeando-globalsolution-master\\semeando\\semeando\\controllers\\perguntacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|solutionrelative:semeando\\controllers\\perguntacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|c:\\users\\live_\\onedrive\\\u00E1rea de trabalho\\semeando-globalsolution-master\\semeando\\semeando\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|solutionrelative:semeando\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|c:\\users\\live_\\onedrive\\\u00E1rea de trabalho\\semeando-globalsolution-master\\semeando\\semeando\\controllers\\respostacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|solutionrelative:semeando\\controllers\\respostacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|c:\\users\\live_\\onedrive\\\u00E1rea de trabalho\\semeando-globalsolution-master\\semeando\\semeando\\controllers\\opcaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|solutionrelative:semeando\\controllers\\opcaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|c:\\users\\live_\\onedrive\\\u00E1rea de trabalho\\semeando-globalsolution-master\\semeando\\semeando\\views\\level\\consultalevel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD5DE038-0B1B-48CA-8A34-CD8BBC95E71A}|Semeando\\Semeando.csproj|solutionrelative:semeando\\views\\level\\consultalevel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Semeando\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Semeando\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T01:29:25.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Semeando\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Semeando\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T00:27:28.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Semeando\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Semeando\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T01:02:18.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LevelController.cs",
+              "DocumentMoniker": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Controllers\\LevelController.cs",
+              "RelativeDocumentMoniker": "Semeando\\Controllers\\LevelController.cs",
+              "ToolTip": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Controllers\\LevelController.cs",
+              "RelativeToolTip": "Semeando\\Controllers\\LevelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:25:07.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PerguntaController.cs",
+              "DocumentMoniker": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Controllers\\PerguntaController.cs",
+              "RelativeDocumentMoniker": "Semeando\\Controllers\\PerguntaController.cs",
+              "ToolTip": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Controllers\\PerguntaController.cs",
+              "RelativeToolTip": "Semeando\\Controllers\\PerguntaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T01:06:38.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OpcaoController.cs",
+              "DocumentMoniker": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Controllers\\OpcaoController.cs",
+              "RelativeDocumentMoniker": "Semeando\\Controllers\\OpcaoController.cs",
+              "ToolTip": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Controllers\\OpcaoController.cs",
+              "RelativeToolTip": "Semeando\\Controllers\\OpcaoController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAwwCAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:25:10.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RespostaController.cs",
+              "DocumentMoniker": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Controllers\\RespostaController.cs",
+              "RelativeDocumentMoniker": "Semeando\\Controllers\\RespostaController.cs",
+              "ToolTip": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Controllers\\RespostaController.cs",
+              "RelativeToolTip": "Semeando\\Controllers\\RespostaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T01:12:25.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsultaLevel.cshtml",
+              "DocumentMoniker": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Views\\Level\\ConsultaLevel.cshtml",
+              "RelativeDocumentMoniker": "Semeando\\Views\\Level\\ConsultaLevel.cshtml",
+              "ToolTip": "C:\\Users\\live_\\OneDrive\\\u00C1rea de Trabalho\\semeando-globalsolution-master\\Semeando\\Semeando\\Views\\Level\\ConsultaLevel.cshtml",
+              "RelativeToolTip": "Semeando\\Views\\Level\\ConsultaLevel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T00:26:06.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

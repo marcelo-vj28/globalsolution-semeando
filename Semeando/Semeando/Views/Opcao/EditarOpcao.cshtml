@@ -1,0 +1,40 @@
+﻿@model Semeando.Models.OpcaoModel
+@{
+    ViewData["EditarOpcao"] = "Editar Opção";
+}
+<div class="edit-container">
+    <h2>Editar Opção</h2>
+    <form method="post" action="/Edicao/Opcao">
+        <div class="form-group">
+            <label for="IdPergunta">Pergunta</label>
+            <select id="IdPergunta" name="IdPergunta" class="form-control" required>
+                @foreach (var pergunta in ViewBag.Perguntas)
+                {
+                    <option value="@pergunta.IdPergunta"
+                            selected="@(Model.IdPergunta == pergunta.IdPergunta)">
+                        @pergunta.Texto
+                    </option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="IdOpcao">Número da Opção (1-9)</label>
+            <input type="number" id="IdOpcao" name="IdOpcao" class="form-control" min="1" max="9" value="@Model.IdOpcao" required />
+        </div>
+        <div class="form-group">
+            <label for="Texto">Texto da Opção</label>
+            <textarea id="Texto" name="Texto" class="form-control" required>@Model.Texto</textarea>
+        </div>
+        <div class="form-group">
+            <label for="OpcaoCorreta">Opção Correta</label>
+            <select id="OpcaoCorreta" name="OpcaoCorreta" class="form-control">
+                <option value="N" selected="@(Model.OpcaoCorreta == "N")">Não</option>
+                <option value="S" selected="@(Model.OpcaoCorreta == "S")">Sim</option>
+            </select>
+        </div>
+        <div class="button-group">
+            <button type="submit" class="btn-primary">Salvar Alterações</button>
+            <a href="/Consulta/Opcao" class="btn-secondary">Cancelar</a>
+        </div>
+    </form>
+</div>

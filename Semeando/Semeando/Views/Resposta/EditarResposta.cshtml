@@ -1,0 +1,43 @@
+﻿@model Semeando.Models.RespostaModel
+@{
+    ViewData["EditarResposta"] = "Editar Resposta";
+}
+<div class="edit-container">
+    <h2>Editar Resposta</h2>
+    <form method="post" action="/Edicao/Resposta">
+        <div class="form-group">
+            <label for="IdResposta">ID da Resposta</label>
+            <input type="number" id="IdResposta" name="IdResposta" class="form-control" value="@Model.IdResposta" required />
+        </div>
+        <div class="form-group">
+            <label for="IdUsuario">Usuário</label>
+            <select id="IdUsuario" name="IdUsuario" class="form-control" required>
+                @foreach (var usuario in ViewBag.Usuarios)
+                {
+                    <option value="@usuario.IdUsuario" selected="@(Model.IdUsuario == usuario.IdUsuario)">
+                        @usuario.NomeUsuario
+                    </option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="IdPergunta">Pergunta</label>
+            <select id="IdPergunta" name="IdPergunta" class="form-control" required>
+                @foreach (var pergunta in ViewBag.Perguntas)
+                {
+                    <option value="@pergunta.IdPergunta" selected="@(Model.IdPergunta == pergunta.IdPergunta)">
+                        @pergunta.Texto
+                    </option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="OpcaoEscolhida">Opção Escolhida (1-9)</label>
+            <input type="number" id="OpcaoEscolhida" name="OpcaoEscolhida" class="form-control" min="1" max="9" value="@Model.OpcaoEscolhida" required />
+        </div>
+        <div class="button-group">
+            <button type="submit" class="btn-primary">Salvar Alterações</button>
+            <a href="/Consulta/Resposta" class="btn-secondary">Cancelar</a>
+        </div>
+    </form>
+</div>

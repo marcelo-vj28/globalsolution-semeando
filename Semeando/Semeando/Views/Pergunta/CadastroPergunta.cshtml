@@ -1,0 +1,25 @@
+﻿@model Semeando.Models.PerguntaModel
+@{
+    ViewData["CadastroPergunta"] = "Cadastro de Pergunta";
+}
+<h1>Cadastro de Pergunta</h1>
+<form method="post">
+    <div class="form-group">
+        <label for="IdLevel">Level</label>
+        <select id="IdLevel" name="IdLevel" class="form-control" required>
+            @foreach (var level in ViewBag.Levels)
+            {
+                <option value="@level.IdLevel">@level.Titulo</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="Texto">Texto da Pergunta</label>
+        <textarea id="Texto" name="Texto" class="form-control" required>@Model.Texto</textarea>
+    </div>
+    <div class="form-group">
+        <label for="TipoPergunta">Tipo da Pergunta</label>
+        <input type="text" id="TipoPergunta" name="TipoPergunta" class="form-control" value="@Model.TipoPergunta" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>

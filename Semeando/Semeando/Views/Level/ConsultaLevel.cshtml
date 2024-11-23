@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Semeando.Models.LevelModel>
+@{
+    ViewData["ConsultaLevel"] = "Consulta de Levels";
+}
+
+<div class="table-container">
+    <h2>Consulta de Levels</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Descrição</th>
+                <th>Dificuldade</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var level in Model)
+            {
+                <tr>
+                    <td>@level.IdLevel</td>
+                    <td>@level.Titulo</td>
+                    <td>@level.Descricao</td>
+                    <td>@level.Dificuldade</td>
+                    <td class="action-buttons">
+                        <a href="/Edicao/Level/@level.IdLevel" class="btn-edit">Editar</a>
+                        <button class="btn-delete" onclick="confirmarDelecao(@level.IdLevel, 'Level')">Deletar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal de confirmação -->
+<div id="deleteModal" class="modal">
+    <div class="modal-content">
+        <p>Tem certeza que deseja deletar esse registro?</p>
+        <div class="modal-buttons">
+            <button onclick="confirmarExclusao()" class="btn-delete" id="btnConfirmarDelecao">Sim</button>
+            <button onclick="fecharModal()" class="btn-edit" id="btnCancelarDelecao">Não</button>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/site.js"></script>

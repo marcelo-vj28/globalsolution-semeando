@@ -1,0 +1,34 @@
+﻿@model Semeando.Models.UsuarioModel
+@{
+    ViewData["EditarUsuario"] = "Editar Usuário";
+}
+<div class="edit-container">
+    <h2>Editar Usuário</h2>
+    <form method="post" action="/Edicao/Usuario">
+        <div class="form-group">
+            <label for="IdUsuario">ID do Usuário</label>
+            <input type="number" id="IdUsuario" name="IdUsuario" class="form-control" value="@Model.IdUsuario" required />
+        </div>
+        <div class="form-group">
+            <label for="NomeUsuario">Nome</label>
+            <input type="text" id="Nome" name="Nome" class="form-control" value="@Model.Nome" required />
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" id="Email" name="Email" class="form-control" value="@Model.Email" required />
+        </div>
+        <div class="form-group">
+            <label for="Ranking">Ranking</label>
+            <select id="Ranking" name="Ranking" class="form-control">
+                <option value="A" selected="@(Model.Ranking == "A")">A</option>
+                <option value="B" selected="@(Model.Ranking == "B")">B</option>
+                <option value="C" selected="@(Model.Ranking == "C")">C</option>
+                <option value="D" selected="@(Model.Ranking == "D")">D</option>
+            </select>
+        </div>
+        <div class="button-group">
+            <button type="submit" class="btn-primary">Salvar Alterações</button>
+            <a href="/Consulta/Usuario" class="btn-secondary">Cancelar</a>
+        </div>
+    </form>
+</div>

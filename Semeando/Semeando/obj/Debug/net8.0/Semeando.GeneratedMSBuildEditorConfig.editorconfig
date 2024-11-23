@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Semeando
+build_property.RootNamespace = Semeando
+build_property.ProjectDir = C:\Users\live_\OneDrive\Área de Trabalho\Semeando\Semeando\Semeando\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\live_\OneDrive\Área de Trabalho\Semeando\Semeando\Semeando
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Level/CadastroLevel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxcQ2FkYXN0cm9MZXZlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Level/ConsultaLevel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxcQ29uc3VsdGFMZXZlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Level/EditarLevel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxcRWRpdGFyTGV2ZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Opcao/CadastroOpcao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BjYW9cQ2FkYXN0cm9PcGNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Opcao/ConsultaOpcao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BjYW9cQ29uc3VsdGFPcGNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Opcao/EditarOpcao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BjYW9cRWRpdGFyT3BjYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Pergunta/CadastroPergunta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZ3VudGFcQ2FkYXN0cm9QZXJndW50YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Pergunta/ConsultaPergunta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZ3VudGFcQ29uc3VsdGFQZXJndW50YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Pergunta/EditarPergunta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZ3VudGFcRWRpdGFyUGVyZ3VudGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Resposta/CadastroResposta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9zdGFcQ2FkYXN0cm9SZXNwb3N0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Resposta/ConsultaResposta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9zdGFcQ29uc3VsdGFSZXNwb3N0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Resposta/EditarResposta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzcG9zdGFcRWRpdGFyUmVzcG9zdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Usuario/CadastroUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYWRhc3Ryb1VzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Usuario/ConsultaUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDb25zdWx0YVVzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Usuario/EditarUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0YXJVc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/live_/OneDrive/Área de Trabalho/Semeando/Semeando/Semeando/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-i9nk9j2ua4

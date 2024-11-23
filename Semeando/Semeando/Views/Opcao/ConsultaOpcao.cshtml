@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Semeando.Models.OpcaoModel>
+@{
+    ViewData["ConsultaOpcao"] = "Consulta de Opções";
+}
+
+<div class="table-container">
+    <h2>Consulta de Opções</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID Pergunta</th>
+                <th>Nº Opção</th>
+                <th>Texto</th>
+                <th>Correta</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var opcao in Model)
+            {
+                <tr>
+                    <td>@opcao.IdPergunta</td>
+                    <td>@opcao.IdOpcao</td>
+                    <td>@opcao.Texto</td>
+                    <td>@opcao.OpcaoCorreta</td>
+                    <td class="action-buttons">
+                        <a href="/Edicao/Opcao/@opcao.IdPergunta/@opcao.IdOpcao" class="btn-edit">Editar</a>
+                        <button class="btn-delete" onclick="confirmarDelecao(@opcao.IdPergunta, @opcao.IdOpcao, 'Opcao')">Deletar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal de confirmação -->
+<div id="deleteModal" class="modal">
+    <div class="modal-content">
+        <p>Tem certeza que deseja deletar esse registro?</p>
+        <div class="modal-buttons">
+            <button onclick="confirmarExclusao()" class="btn-delete" id="btnConfirmarDelecao">Sim</button>
+            <button onclick="fecharModal()" class="btn-edit" id="btnCancelarDelecao">Não</button>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/site.js"></script>
+

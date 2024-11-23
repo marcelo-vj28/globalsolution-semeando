@@ -1,0 +1,29 @@
+﻿@model Semeando.Models.LevelModel
+@{
+    ViewData["EditarLevel"] = "Editar Level";
+}
+<div class="edit-container">
+    <h2>Editar Level</h2>
+    <form method="post" action="/Edicao/Level">
+        <div class="form-group">
+            <label for="IdLevel">ID do Level</label>
+            <input type="number" id="IdLevel" name="IdLevel" class="form-control" value="@Model.IdLevel" required />
+        </div>
+        <div class="form-group">
+            <label for="Titulo">Título</label>
+            <input type="text" id="Titulo" name="Titulo" class="form-control" value="@Model.Titulo" required />
+        </div>
+        <div class="form-group">
+            <label for="Descricao">Descrição</label>
+            <textarea id="Descricao" name="Descricao" class="form-control">@Model.Descricao</textarea>
+        </div>
+        <div class="form-group">
+            <label for="Dificuldade">Dificuldade</label>
+            <input type="text" id="Dificuldade" name="Dificuldade" class="form-control" value="@Model.Dificuldade" required />
+        </div>
+        <div class="button-group">
+            <button type="submit" class="btn-primary">Salvar Alterações</button>
+            <a href="/Consulta/Level" class="btn-secondary">Cancelar</a>
+        </div>
+    </form>
+</div>

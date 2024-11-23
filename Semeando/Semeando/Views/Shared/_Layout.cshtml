@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Semeando</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Semeando</div>
+        <div class="menu">
+            <div class="menu-item" onclick="window.location.href = '@Url.Action("Index", "Home")'">Home</div>
+            <div class="menu-item">
+                <span>Cadastro</span>
+                <ul class="submenu">
+                    <li><a asp-controller="Usuario" asp-action="CreateUsuario">Usuário</a></li>
+                    <li><a asp-controller="Level" asp-action="CreateLevel">Level</a></li>
+                    <li><a asp-controller="Pergunta" asp-action="CreatePergunta">Pergunta</a></li>
+                    <li><a asp-controller="Opcao" asp-action="CreateOpcao">Opção</a></li>
+                    <li><a asp-controller="Resposta" asp-action="CreateResposta">Resposta<</a></li>
+                </ul>
+            </div>
+            <div class="menu-item">
+                <span>Consulta</span>
+                <ul class="submenu">
+                    <li><a asp-controller="Usuario" asp-action="ViewUsuario">Usuário</a></li>
+                    <li><a asp-controller="Level" asp-action="ViewLevel">Level</a></li>
+                    <li><a asp-controller="Pergunta" asp-action="ViewPergunta">Pergunta</a></li>
+                    <li><a asp-controller="Opcao" asp-action="ViewOpcao">Opção</a></li>
+                    <li><a asp-controller="Resposta" asp-action="ViewResposta">Resposta</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        @RenderBody()
+    </div>
+</body>
+</html>

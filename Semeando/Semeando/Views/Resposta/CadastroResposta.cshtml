@@ -1,0 +1,30 @@
+﻿@model Semeando.Models.RespostaModel
+@{
+    ViewData["CadastroResposta"] = "Cadastro de Resposta";
+}
+<h1>Cadastro de Resposta</h1>
+<form method="post">
+    <div class="form-group">
+        <label for="IdUsuario">Usuário</label>
+        <select id="IdUsuario" name="IdUsuario" class="form-control" required>
+            @foreach (var usuario in ViewBag.Usuarios)
+            {
+                <option value="@usuario.IdUsuario">@usuario.NomeUsuario</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="IdPergunta">Pergunta</label>
+        <select id="IdPergunta" name="IdPergunta" class="form-control" required>
+            @foreach (var pergunta in ViewBag.Perguntas)
+            {
+                <option value="@pergunta.IdPergunta">@pergunta.Texto</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="OpcaoEscolhida">Opção Escolhida (1-9)</label>
+        <input type="number" id="OpcaoEscolhida" name="OpcaoEscolhida" class="form-control" min="1" max="9" value="@Model.OpcaoEscolhida" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>

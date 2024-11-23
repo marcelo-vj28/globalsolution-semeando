@@ -1,0 +1,34 @@
+﻿@model Semeando.Models.OpcaoModel
+@{
+    ViewData["CadastroOpcao"] = "Cadastro de Opção";
+}
+<h1>Cadastro de Opção</h1>
+<form method="post">
+    <div class="form-group">
+        <label for="IdPergunta">Pergunta</label>
+        <select id="IdPergunta" name="IdPergunta" class="form-control" required>
+            @foreach (var pergunta in ViewBag.Perguntas)
+            {
+                <option value="@pergunta.IdPergunta">@pergunta.Texto</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="IdOpcao">Número da Opção (1-9)</label>
+        <input type="number" id="IdOpcao" name="IdOpcao" class="form-control" min="1" max="9" value="@Model.IdOpcao" required />
+    </div>
+    <div class="form-group">
+        <label for="Texto">Texto da Opção</label>
+        <textarea id="Texto" name="Texto" class="form-control" required>@Model.Texto</textarea>
+    </div>
+    <div class="form-group">
+        <label for="OpcaoCorreta">Opção Correta?</label>
+        <select id="OpcaoCorreta" name="OpcaoCorreta" class="form-control">
+            <option value="N">Não</option>
+            <option value="S">Sim</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+
+
